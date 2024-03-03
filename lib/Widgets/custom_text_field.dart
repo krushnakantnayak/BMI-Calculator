@@ -25,7 +25,7 @@ class CustomTextField extends StatelessWidget {
           child: TextFormField(
             validator: (value) {
               if (value == null || value.isEmpty) {
-                return "Field Can't be empty";
+                return "Field Can't be empty...";
               }
               return null;
             },
